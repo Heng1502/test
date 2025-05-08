@@ -1,0 +1,72 @@
+/* Basic styles for Health Pre-Check List */
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #fdfdfb;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+
+  header {
+    background: #88d4ab;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+
+  h1, h2 {
+    margin: 0;
+    font-weight: normal;
+  }
+
+  h2 {
+    margin-top: 20px;
+    color: #264653;
+  }
+
+  main {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+  }
+
+  .week-overview, .day-section {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+
+  .reminder {
+    background: #fef6e4;
+    border-left: 6px solid #ffb703;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+
+  .section-title {
+    color: #2a9d8f;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  ul {
+    padding-left: 0;
+    list-style: none;
+  }
+
+  li {
+    margin-bottom: 6px;
+    display: flex;
+    align-items: center;
+  }
+
+  input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.2);
+  }
